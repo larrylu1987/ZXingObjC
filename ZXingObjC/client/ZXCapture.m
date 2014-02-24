@@ -352,9 +352,9 @@ static bool isIPad();
     }
 
     // NSLog(@"start running");
-    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+    //dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
       [self.session startRunning];
-    });
+    //});
   }
   running = true;
 }
